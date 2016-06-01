@@ -1,4 +1,8 @@
-class App extends React.Component {
+import { Sidebar } from './Sidebar';
+import { Search } from './Search';
+import { Main } from './Main';
+
+export class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
